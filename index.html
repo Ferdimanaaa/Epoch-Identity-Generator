@@ -160,7 +160,7 @@ Encrypted Motto: "${randomFrom(mottos)}"
     }
 
     function shareToTwitter() {
-      const text = encodeURIComponent(document.getElementById("output").innerText + "\n#EthereumOS #Eth OS #BroadcastYourself");
+      const text = encodeURIComponent(document.getElementById("output").innerText + "\n#EthereumOS #BroadcastYourself");
       window.open(`https://twitter.com/intent/tweet?text=${text}`, "_blank");
     }
   </script>
